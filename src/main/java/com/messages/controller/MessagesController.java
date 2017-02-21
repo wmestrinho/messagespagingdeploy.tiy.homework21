@@ -21,6 +21,11 @@ import java.util.Calendar;
 @Controller
 public class MessagesController {
 
+    @RequestMapping("/")
+    public String loginRedirect(){
+        return "/open/login";
+    }
+
     @Autowired
     MessagesRepo messagesRepo;
 
