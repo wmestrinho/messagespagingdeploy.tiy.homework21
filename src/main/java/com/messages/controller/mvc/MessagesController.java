@@ -1,4 +1,4 @@
-package com.messages.controller;
+package com.messages.controller.mvc;
 
 import com.messages.data.Author;
 import com.messages.data.Messages;

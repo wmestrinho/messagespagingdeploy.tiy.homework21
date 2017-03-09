@@ -28,7 +28,6 @@ public class AuthorRepoTest {
         msg1.setContent("hello");
         msg1.setAuthor("Bubba");
         messagesRepo.save(msg1);
-
         //create user
         Author user1 = new Author();
         user1.setName("Bubba");

@@ -1,4 +1,4 @@
-package com.messages.controller;
+package com.messages.controller.mvc;
 
 import com.messages.data.Author;
 import com.messages.repository.AuthorRepo;
@@ -16,8 +16,6 @@ import javax.servlet.http.HttpSession;
  */
 @Controller
 public class AuthorController {
-
-
 
     @Autowired
     AuthorRepo authorRepo;
