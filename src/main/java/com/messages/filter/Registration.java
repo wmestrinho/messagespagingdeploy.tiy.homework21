@@ -16,4 +16,12 @@ public class Registration {
         registration.addUrlPatterns("/secure/*");
         return registration;
     }
+
+    @Bean
+    public FilterRegistrationBean RestFilter() {
+        FilterRegistrationBean registration = new FilterRegistrationBean(new RestFilter());
+        registration.addUrlPatterns("/rest/*");
+        return registration;
+    }
+
 }
